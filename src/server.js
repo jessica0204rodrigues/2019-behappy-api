@@ -1,6 +1,6 @@
 import Hapi from "@hapi/hapi";
 
-import { root , tasks } from "./routes";
+import { root, tasks } from "./routes";
 
 const server = new Hapi.Server({
   port: process.env.PORT || 8000

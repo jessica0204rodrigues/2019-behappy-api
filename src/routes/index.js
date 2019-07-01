@@ -1,3 +1,4 @@
 import root from "./root";
-import root from "./tasks";
-export { root , tasks };
+import tasks from "./tasks";
+
+export { root, tasks };
